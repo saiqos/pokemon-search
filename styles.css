@@ -1,0 +1,159 @@
+body {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    display: block;
+    box-sizing: border-box;
+    min-width: 450px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-input {
+    padding: 7px 10px;
+}
+
+.text-input:focus,
+search-btn:focus {
+    outline: 2px solid rgb(112, 112, 251);
+}
+
+.search-btn {
+    border-radius: 24px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #724d84;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.type {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.type_electric {
+    background-color: rgb(255, 221, 0);
+}
+
+.pokemon-container {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e3dfdf;
+}
+
+.pokemon-size {
+    margin-top: 20px;
+}
+
+.pokemon-types {
+    display: flex;
+    gap: 10px;
+}
+
+.type {
+    margin-top: 20px;
+    color: #1b1b32;
+    background-color: #fff;
+}
+
+.type_normal {
+    background-color: rgb(201, 196, 196);
+}
+
+.type_electric {
+    background-color: rgb(19, 8, 232);
+    color: #fff;
+}
+
+.type_poison {
+    background-color: rgb(122, 237, 122);
+}
+
+.type_bug {
+    background-color: rgb(6, 104, 6);
+}
+
+.type_fire {
+    background-color: tomato;
+}
+
+.type_flying {
+    background-color: rgb(137, 137, 227);
+}
+
+.type_grass {
+    background-color: rgb(6, 172, 6);
+}
+
+.type_posion {
+    background-color: rgb(119, 6, 119);
+}
+
+.type_dark {
+    background-color: #000;
+    color: #fff;
+}
+
+.type_ghost {
+    background-color: lightgrey;
+    color: #f8f4f4;
+}
+
+.type_water {
+    background-color: rgb(66, 66, 208);
+}
+
+#pokemon-img {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#pokemon-img img {
+    width: 180px;
+}
+
+.base-stats {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.base-stats th,
+.base-stats td {
+    background-color: #724d84;
+    padding: 10px 0px;
+    border: 5px solid #fff;
+    border-left: none;
+}
+
+.base-stats th:last-child {
+    border-right: none;
+}
+
+.base-stats td:last-child {
+    border-right: none;
+}
